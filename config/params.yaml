@@ -1,0 +1,22 @@
+simulator:
+  loop_hz: 20
+  linear_speed: 0.4
+  angular_speed: 0.2
+  pose_noise_std: [0.01, 0.01, 0.005] #x,y,theta
+
+landmarks:
+  - {id: 0, x: 2.0, y: 0.0}
+  - {id: 1, x: -1.0, y: 2.0}
+  - {id: 2, x: 4.0, y: 3.0}
+  - {id: 3, x: -2.5, y: -1.5}
+
+ekf:
+  motion_noise: [0.01, 0.01, 0.01]
+  meas_range_std: 0.08
+  meas_bearing_std: 0.05
+
+pf:
+  num_particles: 400
+  motion_noise: [0.02, 0.02, 0.02]
+  meas_range_std: 0.1
+  meas_bearing_std: 0.06
