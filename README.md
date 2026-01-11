@@ -2,7 +2,7 @@
 
 # Localization with EKF & Particle Filter (ROS 2)
 
-This project demonstrates **probabilistic localization for mobile robots** using two classical state-estimation techniques:
+This (Work-in-Progress)project demonstrates **probabilistic localization for mobile robots** using two classical state-estimation techniques:
 
 - **Extended Kalman Filter (EKF)**
 - **Particle Filter (Monte Carlo Localization)**
@@ -76,9 +76,9 @@ Each frame shows the estimated pose, covariance ellipse, and trajectory history.
 The project supports both **qualitative and quantitative** evaluation:
 
 - Trajectory comparison (ground truth vs EKF vs PF)
-- Root Mean Square Error (RMSE) over time
-- Visual convergence behavior
-- Noise sensitivity analysis
+- TODO: Root Mean Square Error (RMSE) over time
+- TODO: Visual convergence behavior
+- TODO: Noise sensitivity analysis
 
 ---
 
